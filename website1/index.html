@@ -1,0 +1,153 @@
+
+<!doctype html>
+<html>
+<head>
+    <title>Lola-Page</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-color: purple;
+}
+
+@media screen and (max-width: 2000px){
+
+  .option1{
+    background-color: pink;
+    width: 28%;
+    height: 299vh;
+    margin: 0px;
+    float: left;
+  }
+
+  .option2 {
+    display: inline-block;
+    background-color: pink;
+    width: 49%;
+    height: 50vh;
+    margin: 115px;
+    float: left;
+
+  }
+
+  #text {
+    background-color: pink;
+  }
+
+
+  .option3, .option4, .option5, .option6, .option7, .option8 {
+        visibility: collapse;
+  }
+} /* end of 2000 px */
+
+@media screen and (max-width: 1014px){
+
+  .option1{
+    height: 200vh;
+  }
+}
+  .option2 {
+    display: inline-block;
+    background-color: pink;
+    width: 39%;
+    height: 89vh;
+    margin: 115px;
+    float: left;
+  }
+} /* this is the end of 1014px */
+
+@media screen and (max-width: 722px){
+
+  .option5, .option6, .option7, .option8 {
+    visibility: visible;
+    background-color: yellow;
+    width: 48%;
+    height: 34vh;
+    margin: 5px;
+    float: right;
+  }
+
+  .option1, .option2, .option3, .option4 {
+    display: inline-block;
+    background-color: pink;
+    width: 47%;
+    height: 34vh;
+    margin: 5px;
+    float: left;
+  }
+
+  #text {
+    display: none !important;
+  }
+} /* end of 722px */
+
+
+@media screen and (max-width: 493px){
+  .option1, .option2, .option3, .option4 {
+    background-color: pink;
+    width: 96%;
+    height: 27vh;
+    margin: 10px;
+  }
+
+  .option5, .option6, .option7, .option8 {
+    display: none;
+  }
+} /* end of 493px */
+
+</style>
+
+
+</head>
+
+<body>
+  <div class="container">
+      <div class="option1">
+
+      </div><!-- option1 -->
+
+                  <div class="option5">
+
+                  </div><!-- option5 -->
+
+
+      <div class="option2">
+<p id="text">Text</p>
+
+      </div><!-- option2 -->
+
+                  <div class="option6">
+
+                  </div><!-- option6 -->
+
+
+      <div class="option3">
+
+
+      </div><!-- option3 -->
+
+                  <div class="option7">
+
+                  </div><!-- option7 -->
+
+      <div class="option4">
+
+
+      </div><!-- option4 -->
+
+                  <div class="option8">
+
+                  </div><!-- option8 -->
+
+
+
+
+  </div><!-- container -->
+</body>
+</html>
