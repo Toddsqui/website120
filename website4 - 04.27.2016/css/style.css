@@ -1,0 +1,103 @@
+
+
+body {
+  border: 0;
+  margin: 0;
+  background-color: #f2f2f2;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+header {
+  background-image: url('../images/nomadpic.jpeg');
+  background-size: auto;
+  background-position: center right;
+  padding-bottom: 20em;
+  overflow: auto;
+  width: 100%
+
+}
+
+.header-text {
+  margin-top: 8em;
+  float: right;
+  padding-right: 3em;
+  color: #1a1a1a;
+}
+
+h1,
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+}
+
+h1 {
+  font-size: 2.25em;
+  margin-top: -.5em;
+}
+
+.header-text h2{
+  font-size: 2.15em
+}
+
+.content {
+  max-width: 50em;
+  margin: 0 auto;
+}
+
+p {
+  font-family: "Neuton", serif;
+  font-size: 1.25em;
+  line-height: 1.5;
+}
+
+.content h2 {
+  text-align: center;
+}
+
+.social li{
+  display: inline-block;
+  list-style-type: none;
+  color: #ccc;
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+  background-color: #6db3a5;
+  overflow: auto;
+}
+
+footer p {
+  font-size: 1em;
+}
+.unsplash {
+  font-size: .75em;
+}
+
+.fa-3 {
+  font-size: 2.25em;
+  margin: 0 .3em;
+}
+
+@media only screen and (max-width: 500px){
+  .header-text {
+    font-size: .75em;
+    padding-bottom: 1em;
+    padding-bottom: none;
+}
+  header {
+    border-top: none;
+    height: 10em;
+    overflow-y: hidden;
+  }
+  .fa-3 {
+    border: 0 .1em;
+  }
+  body {
+    overflow-y: hidden;
+  }
+}
